@@ -1,2 +1,2 @@
 # odin-recipes
-Welcome to our basic recipe website! This simple site is designed to help you discover and try out a variety of recipes. The website consists of a main index page that serves as a hub, linking you to a selection of delicious recipes.
+Welcome to my basic recipe website! This simple site is designed to help you discover and try out a variety of recipes. The website consists of a main index page that serves as a hub, linking you to a selection of delicious recipes.
