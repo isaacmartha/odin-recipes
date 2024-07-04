@@ -1,0 +1,283 @@
+
+* {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+.header {
+    background-color: #842029;
+    color: white;
+    padding: 20px;
+    border-bottom: 5px solid black;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+.header h1:hover,
+.header p:hover {
+    color: black;
+}
+
+.list-main {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-main li {
+    background-color: #d9534f;
+    padding: 15px;
+    margin: 10px auto;
+    border-radius: 50px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.list-main a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.list-main a:hover {
+    color: #f8f8f8;
+    background-color: #642e2c;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+
+@media (max-width: 600px) {
+    .header h1 {
+        font-size: 2.5em;
+    }
+
+    .header p {
+        font-size: 1em;
+    }
+
+    .list-main li {
+        width: 90%;
+    }
+}
+
+
+/* Roast Beef Styles */
+.roast-beef-page {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+.roast-beef-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #842029;
+}
+
+.roast-beef-page h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #d9534f;
+}
+
+.roast-beef-page img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.roast-beef-page p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.roast-beef-page ul, .roast-beef-page ol {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+.roast-beef-page ul li, .roast-beef-page ol li {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .roast-beef-page h1 {
+        font-size: 2em;
+    }
+
+    .roast-beef-page h2 {
+        font-size: 1.5em;
+    }
+
+    .roast-beef-page p, .roast-beef-page ul li, .roast-beef-page ol li {
+        font-size: 1em;
+    }
+}
+
+/* Mac and Cheese Page Specific Styles */
+.mac-and-cheese-page {
+    background-color: #ffebcd;
+}
+
+.mac-and-cheese-page h1 {
+    color: #d2691e;
+}
+
+.mac-and-cheese-page h2 {
+    color: #8b4513;
+}
+
+.mac-and-cheese-page p {
+    color: #8b4513;
+}
+
+.mac-and-cheese-page img {
+    border: 5px solid #d2691e;
+}
+
+
+/* Mac and Cheese Styles */
+.mac-and-cheese-page {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+.mac-and-cheese-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #842029;
+}
+
+.mac-and-cheese-page h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #d9534f;
+}
+
+.mac-and-cheese-page img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mac-and-cheese-page p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.mac-and-cheese-page ul, .mac-and-cheese-page ol {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+.mac-and-cheese-page ul li, .mac-and-cheese-page ol li {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .mac-and-cheese-page h1 {
+        font-size: 2em;
+    }
+
+    .mac-and-cheese-page h2 {
+        font-size: 1.5em;
+    }
+
+    .mac-and-cheese-page p, .mac-and-cheese-page ul li, .mac-and-cheese-page ol li {
+        font-size: 1em;
+    }
+}
+
+/* Banana Pudding Styles */
+.banana-pudding-page {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+.banana-pudding-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #842029;
+}
+
+.banana-pudding-page h2 {
+    font-size: 2em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #d9534f;
+}
+
+.banana-pudding-page img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banana-pudding-page p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+.banana-pudding-page ul, .banana-pudding-page ol {
+    text-align: left;
+    max-width: 600px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+.banana-pudding-page ul li, .banana-pudding-page ol li {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+    .banana-pudding-page h1 {
+        font-size: 2em;
+    }
+
+    .banana-pudding-page h2 {
+        font-size: 1.5em;
+    }
+
+    .banana-pudding-page p, .banana-pudding-page ul li, .banana-pudding-page ol li {
+        font-size: 1em;
+    }
+}
